@@ -1,13 +1,14 @@
 # Audio Classification using CNN-BiLSTM
 
+<p align="center">
+  <b>Deep Learning Pipeline for Speech Audio Classification</b>
+</p>
 
-                                          Deep Learning Pipeline for Speech Audio Classification</b>
+<p align="center">
+  MFCC Feature Extraction • 1D CNN • Bidirectional LSTM • PyTorch
+</p>
 
-
-
-                                          MFCC Feature Extraction • 1D CNN • Bidirectional LSTM • PyTorch
-
-
+---
 
 ## Overview
 
@@ -24,6 +25,7 @@ The implementation covers the complete machine learning workflow:
 **Audio Loading → Preprocessing → MFCC Extraction → CNN → BiLSTM →
 Classification → Evaluation**
 
+---
 
 ## Key Features
 
@@ -36,10 +38,11 @@ Classification → Evaluation**
 - Implemented reproducible train, validation, and test data splits
 - Evaluated predictions using **F1-score and classification reports**
 
+---
 
 ## System Architecture
 
-
+```text
                     Raw Speech Audio
                            │
                            ▼
